@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*
+
+CSS Stylesheet for MR Technically Speaking website
+
+
+Author: Matt Rarick
+Date: May 10, 2021
+
+File Name: mr_tech_speak_stylesheet.css
+*/
+
+  
+/* Main structural styles */
+
+html {
+  background-image: url("mr_tech_speak/blue_sky_and_white_clouds.jpg");     
+}
+
+body {
+	color: black;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: arial black, aria, "New Times Roman", serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Heading Styles */
+
+H1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+H2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+/*Nav styles*/
+
+ #menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 40em;
+	list-style: none;
+	padding: 1.25em;
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+  font-size: 1.25em;
+  word-spacing: 4em;
+}
+
+ul#horizontal-list li {
+		display: inline;
+}
+
+/* Other styles*/
+
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div{
+  padding: 1em;
+}
+
+p {
+  padding: 1em;
+}
+
+aside{
+  display: flex;
+  background-color: transparent;
+  padding: 1em;
+}
